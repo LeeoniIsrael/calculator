@@ -22,6 +22,7 @@ body
    width:100px;
    transition-duration: 0.6s;
    border-color: rgb(0, 0, 1);
+   line-height: 100px;
 }
 
 .number1
@@ -34,6 +35,10 @@ body
    font-size: 50px;
    transition-duration: 0.6s;
    border-color: rgb(0, 0, 1);
+<<<<<<< HEAD
+   line-height: 100px;
+=======
+>>>>>>> efc2cc37ac60266bebc3883e998d4862aeb5e0aa
 }
 .equals
 {
@@ -77,7 +82,13 @@ body
     border-radius: 20px;
     height: 75px;
     line-height: 75px;
+<<<<<<< HEAD
+    min-width:415px;
+    /* width:100%; */
+    max-width: fit-content;
+=======
     width:415px;
+>>>>>>> efc2cc37ac60266bebc3883e998d4862aeb5e0aa
 }
 
 .number:hover
@@ -104,4 +115,13 @@ body
     
     background-color: white;
 }
-
+.equals:hover
+{
+    background-color: black;
+    transform: scale(1.1);
+}
+.equals:active
+{
+    transition-duration: 0.01s;
+    background-color: #555555;
+}
